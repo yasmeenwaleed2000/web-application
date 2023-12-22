@@ -1,0 +1,391 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.yaso{
+    font-size: xx-large;
+}
+.ya{
+    margin: 20px;
+    
+}
+header{
+    background-size: cover;
+    background-position: center center;
+    background-image: url(images/hero-bg.jpg);
+    text-align: center;
+    
+}
+
+.h{
+    font-size:80px;
+    
+}
+
+
+.p::after{
+    content: " |";
+    animation-name: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes typing{
+0%{  content: " |"}
+1%{  content: "F|"}
+2%{  content: "Fr|"}
+3%{  content: " Fre|"}
+4%{  content: " Free|"}
+5%{ content: " Freel|"}
+6%{  content: " Freela|"}
+7%{  content: "Freelan|"}
+8%{  content: "Freelanc|"}
+9%{  content: " Freelance|"}
+10%{  content: " Freelancer|"}
+11%{  content: " Freelance|"}
+12%{  content: " Freelanc|"}
+13%{  content: " Freelan|"}
+14%{  content: " Freela|"}
+15%{  content: " Freel|"}
+16%{  content: " Free|"}
+17%{  content: " Fre|"}
+18%{  content: " Fr|"}
+19%{  content: " F|"}
+20%{  content: " |"}
+
+21%{  content: " |"}
+22%{  content: " P|"}
+23%{  content: "Ph|"}
+24%{  content: " Pho|"}
+25%{  content: " Phot|"}
+26%{ content: " Photo|"}
+27%{  content: " Photog|"}
+28%{  content: "Photogr|"}
+29%{  content: "Photogra|"}
+30%{  content: " Photograp|"}
+31%{  content: " Photograph|"}
+32%{  content: " Photographe|"}
+33%{  content: " Photographer|"}
+34%{  content: " Photogrape|"}
+35%{  content: " Photograp|"}
+36%{  content: "Photogra|"}
+37%{  content: " Photogr|"}
+38%{  content: " Photog|"}
+39%{  content: " Photo|"}
+40%{  content: " Phot|"}
+41%{  content: " Pho|"}
+42%{  content: " Ph|"}
+43%{  content: " P|"}
+44%{  content: " |"}
+
+45%{  content: " |"}
+46%{  content: " D|"}
+47%{  content: "De|"}
+48%{  content: " Des|"}
+49%{  content: " Desi|"}
+50%{ content: " Desig|"}
+51%{  content: " Design|"}
+52%{  content: "Designe|"}
+53%{  content: "Designer|"}
+54%{  content: " Designe|"}
+55%{  content: " Design|"}
+56%{  content: " Desig|"}
+57%{  content: " Desi|"}
+58%{  content: " Des|"}
+59%{  content: " De|"}
+60%{  content: "D|"}
+61%{  content: " |"}
+
+62%{  content: " |"}
+63%{  content: " D|"}
+64%{  content: "De|"}
+65%{  content: " Dev|"}
+66%{  content: " Devl|"}
+678%{ content: " Devlo|"}
+68%{  content: " Devlop|"}
+69%{  content: "Devlope|"}
+70%{  content: "Devloper|"}
+71%{  content: " Devlope|"}
+72%{  content: " Devlop|"}
+73%{  content: " Devlo|"}
+74%{  content: " Devl|"}
+75%{  content: " De|"}
+76%{  content: " D|"}
+100%{  content: " |"}
+
+}
+
+
+
+
+
+
+
+.font{
+
+    background-size: cover;
+    background-position: center center;
+    font-family:sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.t{
+    text-align: center;
+}
+
+.item{
+    font-size: 50px;
+    color: blue;
+    padding: 50px;
+}
+
+.f{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.back{
+    background-image: url(images/post-3.jpg);
+}
+
+
+.c{
+    color: white;
+}
+
+.items{
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.w{
+    width: 50px;
+    height: 5px;
+    background-color: blue;
+    position: relative;
+    left: 580px;
+}
+
+
+
+.s{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.images{
+overflow: hidden;
+}
+img{
+    transition: 2s;
+    overflow: hidden;
+}
+
+.mod:hover{
+    transform:scale(1.5,1.5);
+}
+
+.item1{
+    font-size: 50px;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add{
+    background-image: url(images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.client-img{
+    width: 200px;
+    border-radius: 50%;
+   
+}
+
+.client-feedback{
+    text-align: center;
+    color: white;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add2{
+    
+    position: relative;
+}
+.add2::after{
+    content: 'travel';
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    position: absolute;
+    top: 340px;
+    left: 100px;
+    color: white;
+}
+
+
+
+
+
+.add3{
+    transition: 1s;
+}
+
+.add3:hover{
+color: blue;
+}
+
+
+
+.add4{
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(images/testimonial-2.jpg);
+    border: none;
+    
+    margin: 15px;
+   
+}
+
+
+
+
+
+.add5{
+    
+    position: relative;
+}
+.add5::after{
+    content: 'WEB DESIGN';
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    position: absolute;
+    top: 340px;
+    left: 100px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.empty{
+    background-image: url(images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.btn{
+
+    height: 80px;
+    border-radius: 20px;
+}
+
+
+
+.add6{
+    width: 130px;
+    height: 3px;
+    background-color: blue;
+    
+}
+
+
+
+
+
+
+.add7{
+    text-align: center;
+    
+}
+
+
+.toka{
+    padding: 5px;
+}
